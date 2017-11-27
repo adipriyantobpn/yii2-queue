@@ -45,7 +45,7 @@ class Queue extends CliQueue
     /**
      * @var string
      */
-    public $commandClass = Command::class;
+    public $commandClass = 'yii\queue\file\Command';
 
 
     /**

@@ -24,7 +24,7 @@ class Generator extends \yii\gii\Generator
     public $properties;
     public $retryable = false;
     public $ns = 'app\jobs';
-    public $baseClass = BaseObject::class;
+    public $baseClass = 'yii\base\BaseObject';
 
 
     /**

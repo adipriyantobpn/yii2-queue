@@ -64,7 +64,7 @@ abstract class Queue extends Component
     /**
      * @var SerializerInterface|array
      */
-    public $serializer = PhpSerializer::class;
+    public $serializer = 'yii\queue\serializers\PhpSerializer';
     /**
      * @var int default time to reserve a job
      */

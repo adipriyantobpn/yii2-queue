@@ -24,7 +24,7 @@ class Queue extends CliQueue
     /**
      * @var string command class name
      */
-    public $commandClass = Command::class;
+    public $commandClass = 'yii\queue\gearman\Command';
 
 
     /**
